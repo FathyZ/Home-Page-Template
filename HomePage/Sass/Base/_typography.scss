@@ -1,0 +1,28 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font-family: $main-font;
+}
+.main-paragraph{
+  font-size: 1rem;
+    color:#727272
+}
+.main-color{
+  color: $main-color;
+}
+.secondary-color{
+  color: $secondary-color;
+}
+.bullets{
+  font-size: 1rem;
+  color:$main-color;
+}
+.bold-black{
+  font-weight: bold;
+  color: black;
+}
+.ta-right{
+  text-align: right;
+}

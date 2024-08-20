@@ -1,0 +1,31 @@
+.nav-bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    color: $main-color;
+    height: 6.25rem;
+    padding: 0.625rem 1.25rem;
+    z-index: 9999;
+}
+.nav-bar-header{
+    padding: 0px 1.25rem;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.nav-bar-footer{
+    padding-right: 3.125rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .nav-bar-footer-phone{
+        font-size: 1.125rem;
+        font-weight: bold;
+        color:$main-color;
+        margin-top: 0.5rem;
+    }
+}

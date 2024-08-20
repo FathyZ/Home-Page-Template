@@ -1,0 +1,146 @@
+.slide-2-card {
+    height: 13.125rem;
+    width: 10.875rem;
+    background-color: $secondary-color;
+    position: absolute;
+    bottom: 2.1875rem;
+    left: 1.5625rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-3-card {
+    width: 32%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+    cursor: default;
+    user-select: none;
+    z-index: 1;
+    text-align: center;
+}
+
+.slide-4-card {
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.8125rem 1.25rem;
+    cursor: default;
+    user-select: none;
+    margin: 0px 0.3125rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 15%);
+}
+
+.slide-5-card {
+    width: 33%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 0.3125rem 0px;
+    padding: 1.25rem 0.625rem;
+    cursor: default;
+    user-select: none;
+    z-index: 1;
+}
+
+.slide-5-text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+    width: 33%;
+    line-height: 2.1875rem;
+    margin: 0.625rem 0px;
+    padding: 1.25rem 0.625rem;
+    cursor: default;
+    user-select: none;
+    
+}
+
+.slide-6-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    cursor: default;
+    user-select: none;
+    z-index: 1;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 15%);
+    position: relative;
+    left: 1.25rem;
+    
+}
+
+.slide-7-card {
+    width: 32%;
+    background-color: $white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+    user-select: none;
+    padding: 0.625rem;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 15%);
+}
+
+.slide-8-card {
+    width: 100%;
+    background-color: $white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 15%);
+    margin: 1.25rem 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slide-10-card {
+    width: 33%;
+    background-color: $white;
+    border-radius: 20px;
+    padding: 0.625rem;
+    margin: 0px 0.625rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 15%);
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.slide-11-country-card{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid #E3DBD8;
+    border-radius: 20px;
+    padding: 0.5rem;
+    p{
+        color: $main-color;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    margin: 0.5rem;
+    img{
+        margin-right: 0.625rem;
+    }
+}

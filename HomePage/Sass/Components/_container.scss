@@ -1,0 +1,414 @@
+.slide-2-image-container{
+    margin-left: 6.25rem;
+    width: 40%;
+    height: 100%;
+    position: relative; 
+    img{
+        width: auto;
+        position: absolute;
+    }
+    img:nth-child(1) {
+        left:0;
+        top: 70px;
+    }
+
+    img:nth-child(2) {
+        top:90px;
+        right: 35px;
+    }
+
+    img:nth-child(3) {
+        bottom: 50px;
+        right: 80px;
+    }
+}
+
+.slide-2-text-container{
+    width: 50%;
+    padding: 0rem 6.25rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.slide-2-aboutus-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+}
+.green-container{
+    width: 90%;
+    background-color:$third-color ;  
+    padding: 1.25rem 0rem; 
+    border-radius: 20px;
+}
+.slide-3-container{
+    height: 85vh;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+    margin-bottom: 1.25rem;
+        img{
+            width:auto;
+            height:100%;
+            background-color: #D9D9D9;
+            border-radius: 30px;
+            position: absolute;
+            right: 0;
+        }
+    
+}
+.slide-3-content-container{
+    position: absolute;
+    left: 9.375rem;
+}
+.slide-3-cards-container{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 1.25rem;
+    width: 85%;
+}
+.slide-4-content-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height:auto;
+    width: 80%;
+    margin: auto;
+    img{
+        width: 50%;
+        height: auto;
+    }
+}
+.slide-4-cards-container{
+    display: flex;
+    justify-content:center;
+    width: 50%;
+    height:100%;
+    background-color: $white;
+    margin: 0rem 2.5rem;
+    .col{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+        margin: 0rem 0.9375rem;
+        width: 50%;
+        height: 100%;
+    }
+}
+.slide-4-brands-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 3.125rem;
+}
+.slide-5-container{
+    padding: 1.25rem 0rem; 
+    border-radius: 20px;
+}
+.slide-5-cards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: -6.25rem;
+    .card-row{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin-bottom: 0.3125rem;
+        height: 50%;
+    }
+}
+.slide-5-contact-us-container{
+    background-color: $secondary-color;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 80%;
+    user-select: none;
+    cursor: default;
+    img{
+        width: 40%;
+        height: auto;
+        padding: 1.25rem;
+    }
+}
+.slide-6-container{
+    padding: 6.25rem 0rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    cursor: default;
+    user-select: none;
+}
+.slide-6-cards-container{
+    margin-top: 1.25rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width: 50%;
+        height: auto;
+    }
+}
+.slide-6-card-text-container{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 1.25rem;
+    .slide-6-card-user-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            font-size: 1rem;
+            color: $grey;
+            margin: 0rem 0rem;
+        }
+    }
+}
+.slide-7-container{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slide-7-content-container{
+    width:80%;
+    padding: 1.875rem 0rem;
+}
+.slide-7-text-conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.slide-7-cards-container{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.5rem 0rem;
+}
+.slide-7-card-text-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+}
+.slide-8-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.slide-8-content-container{
+    width:80%;
+    padding: 1.875rem 0rem;
+}
+.slide-8-cards-images-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.5rem 0rem;
+    width: 100%;
+}
+.slide-8-cards-container{
+    width: 50%;
+}
+.slide-8-images-container{
+    width: 50%;
+    img{
+        width: 100%;
+        height: auto;
+        margin-left: 2rem;
+
+    }
+}
+.slide-9-container{
+    padding: 1.25rem 0rem; 
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-9-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: -6.25rem;
+}
+.slide-9-form-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    img{
+        width: 50%;
+        height: auto;
+        padding: 0rem 1.25rem;
+    }
+    padding: 1.25rem 0rem;
+}
+.slide-9-form-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 0rem 0.3125rem;
+}
+.slide-9-form-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.slide-9-contact-us-container{
+    background-color: $white;
+    box-shadow: 0px 0px 10px  rgba(0, 0,0, 15%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    user-select: none;
+    cursor: default;
+    background-image: url(../../imgs/Карта\ 2.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    img{
+        width: 40%;
+        height: auto;
+        padding: 1.25rem;
+    }
+    
+}
+.slide-9-contact-us-text-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.slide-10-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slide-10-content-container{
+    width:80%;
+    padding: 1.875rem 0rem;
+}
+.slide-10-cards-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.5rem 0rem;
+    width: 100%;
+}
+.slide-10-date-author-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 1.25rem 0rem;
+}
+.footer-content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 80%;
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 25%;
+    color: $white;
+    padding: 0rem 0.3125rem;
+    p{
+        margin: 0.3125rem 0rem;
+    }
+}
+.footer-gallery-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    img{
+        width: 50%; 
+        height: auto;
+    }
+}
+.slide-11-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slide-11-content-container{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slide-11-menus-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2.5rem 0rem;
+}
+.slide-11-sidebar{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 30%;
+    margin-right: 1.25rem;
+    box-shadow: 0px 0px 10px  rgba(0, 0,0, 15%);
+    border-radius: 20px;
+    padding: 1.25rem 2rem;
+    
+}
+.slide-11-countries{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slide-11-countries-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0rem 0.5rem;
+}

@@ -1,0 +1,66 @@
+.slide-5-contact-us-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    width: 60%;
+}
+.slide-5-contact-us-form-email{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 0.625rem 1.875rem;
+    input{
+        width: 80%;
+        padding: 0.625rem 1.25rem;
+        margin-bottom: 1.25rem;
+        border-radius: 20px;
+        border: $white 1px solid;
+        background: none;
+        color: $white;
+        font: inherit;
+        &::placeholder{
+            color:$white;
+        }
+    }
+    button{
+        padding: 0.625rem 1.25rem;
+        margin-left: 0.625rem;
+        width: 40%;
+        background-color: $white;
+        color: $main-color;
+        font-size: 0.75rem;
+        font-weight: bold;
+        border: none;
+        border-radius: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.slide-9-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0.625rem 0rem;
+    input{
+        height: 3.75rem;
+        border:#E3DBD8 1px solid;
+        color: $main-color;
+        border-radius: 2rem;
+        margin-top: 0.5rem;
+        outline: none;
+        padding-inline-start: 1rem;
+        &::placeholder{
+            color: $main-color;
+            opacity: 60%;
+        }
+    }
+    label{
+        margin-inline-start: 0.5rem;
+        font-size: 1rem;
+        color: $main-color;
+    }
+}
